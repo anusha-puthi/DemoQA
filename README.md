@@ -14,6 +14,17 @@ This Project is where in we must register a Student with personal information. T
 1. In the File "**RegistrationTestScript.java**" present in driverFactory folder please make the changes:
     i.  "**G:\\anujava\\Demoqa\\PropertyFile\\Project.properties**" to the file of your specified computer
     ii. "**G:\\anujava\\drivers\\chromedriver_win32\\chromedriver.exe**" to the file of your specified computer
-    ii. "**G:\\anujava\\Demoqa\\CommonDrivers\\geckodriver.exe**" to the file of your specified computer
+    iii. "**G:\\anujava\\Demoqa\\CommonDrivers\\geckodriver.exe**" to the file of your specified computer
+    iv. "**C:\\Users\\Personal\\Pictures\\1970-01\\ganesh.jpg**" to the file of your specified computer. This is the image that will be uploaded as part of the registration     
+         process.
 
-Make these changes for all the files available in the driver factory - **AlertTestScript.java, DatePickerTestScript.java, DragAndDropTestScript.java, ModalTestScript and ToolTipTestScript.java**
+    Make the above changes (i, ii & iii) for all the files available in the driver factory - **AlertTestScript.java, DatePickerTestScript.java, DragAndDropTestScript.java,**  
+    **ModalTestScript.java and ToolTipTestScript.java**
+    
+**Files to be Executed in order**
+1. Enter all details into the student registration form and submit - Run the Test Script - **RegistrationTestScript.java**
+2. Click on the second button and accept the alert - Run the Test Script -  **AlertTestScript.java**
+3. Hover over the button and the input field - Run the Test Script -  **ToolTipTestScript.java**
+4. Drag and drop element into specific area -v **DragAndDropTestScript.java**
+5. Close the small modal - Run the Test Script -  **ModalTestScript.java**
+6. Use the date picker to set the date to 1 month in the future - Run the Test Script -  **DatePickerTestScript.java**
