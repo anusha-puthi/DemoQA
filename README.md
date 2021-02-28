@@ -11,6 +11,7 @@ This Project is where in we must register a Student with personal information. T
 6. Use the date picker to set the date to 1 month in the future
 
 **Files to Be Modified Before Execution**
+
 1. In the File "**RegistrationTestScript.java**" present in driverFactory folder please make the changes:
     i.  "**G:\\anujava\\Demoqa\\PropertyFile\\Project.properties**" to the file of your specified computer
     ii. "**G:\\anujava\\drivers\\chromedriver_win32\\chromedriver.exe**" to the file of your specified computer
@@ -37,3 +38,6 @@ Additionally, I have developed the Reports which shows whether the report is suc
 4.  Modal.html
 5.  Registration.html
 6.  tootip.html
+
+
+There are Other ways of executing the scripts such as provide the inputs in an excel sheet, placing the image in the project itself etc. 
